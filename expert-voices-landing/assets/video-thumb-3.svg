@@ -1,0 +1,17 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <rect width="1080" height="1920" fill="url(#paint0_linear)" />
+    <path
+        d="M540 860C484.772 860 440 904.772 440 960C440 1015.23 484.772 1060 540 1060C595.228 1060 640 1015.23 640 960C640 904.772 595.228 860 540 860Z"
+        fill="white" fill-opacity="0.2" />
+    <path d="M580 960L520 925.359V994.641L580 960Z" fill="white" />
+    <defs>
+        <linearGradient id="paint0_linear" x1="540" y1="0" x2="540" y2="1920"
+            gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4C1D95" />
+            <stop offset="1" stop-color="#2E1065" />
+        </linearGradient>
+    </defs>
+    <text x="540" y="1200" text-anchor="middle" font-family="Arial, sans-serif" font-size="60"
+        fill="white" font-weight="bold">Leadership</text>
+</svg>
