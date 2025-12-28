@@ -1,0 +1,25 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="800" height="600" fill="#111827" />
+    <!-- Camera -->
+    <rect x="250" y="200" width="300" height="200" rx="20" fill="#374151" />
+    <circle cx="400" cy="300" r="80" fill="#1F2937" stroke="#60A5FA" stroke-width="10" />
+    <rect x="300" y="150" width="200" height="50" rx="10" fill="#4B5563" />
+    <!-- Tripod -->
+    <path d="M400 420L300 550M400 420L500 550" stroke="#9CA3AF" stroke-width="15"
+        stroke-linecap="round" />
+    <!-- Lights -->
+    <circle cx="150" cy="150" r="60" fill="url(#light1)" opacity="0.6" />
+    <circle cx="650" cy="150" r="60" fill="url(#light2)" opacity="0.6" />
+    <defs>
+        <radialGradient id="light1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(150 150) rotate(90) scale(60)">
+            <stop stop-color="#60A5FA" />
+            <stop offset="1" stop-color="#60A5FA" stop-opacity="0" />
+        </radialGradient>
+        <radialGradient id="light2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="translate(650 150) rotate(90) scale(60)">
+            <stop stop-color="#C084FC" />
+            <stop offset="1" stop-color="#C084FC" stop-opacity="0" />
+        </radialGradient>
+    </defs>
+</svg>
