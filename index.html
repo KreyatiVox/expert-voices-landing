@@ -22,7 +22,11 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/Favicon-kvx.png" />
+    <link rel="icon" type="image/png" href="assets/Favicon-kvx.png" />
+
+    <!-- Preload Critical Images -->
+    <link rel="preload" as="image" href="assets/42295.jpg" fetchpriority="high" />
+    <link rel="preload" as="image" href="assets/IconLogo.png" />
   </head>
   <body>
     <header class="header">
@@ -33,10 +37,10 @@
             KreyatiVox <span class="accent">Expert Voices</span>
           </a>
           <button class="nav-toggle" aria-label="Menu">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
           </button>
           <div class="nav-links">
-            <a href="#contact" class="btn btn-primary">Commencer</a>
+            <a href="#application-form" class="btn btn-primary">Commencer</a>
             <a href="https://wa.me/50932808202" target="_blank" class="btn btn-nav-whatsapp" aria-label="WhatsApp">
               <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="white">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
@@ -53,69 +57,204 @@
         <div class="container hero-grid">
           <div class="hero-content-left">
             <h1 class="hero-title fade-in">
-              Transformez votre <span class="gradient-text">Expérience</span
-              ><br />
-              en <span class="gradient-text">Autorité</span>
+              Devenez une référence <span class="gradient-text">visible</span>,<br />
+              pas un expert <span class="text-muted" style="color: var(--text-muted); opacity: 0.7;">invisible</span>.
             </h1>
-            <p class="hero-subtitle fade-in delay-1">
-              Vous avez le savoir. Nous lui donnons une voix.
-            </p>
             <p class="hero-description fade-in delay-2">
-              Expert Voices par KreyatiVox est un programme vidéo premium conçu
-              pour les professionnels qui veulent bâtir leur crédibilité, leur
-              visibilité et une audience fidèle — sans le stress de la production.
+              <strong>Expert Voices</strong> by KreyatiVox accompagne les professionnels
+              et experts à transformer leur savoir en <strong>vidéos courtes stratégiques</strong>
+              qui construisent visibilité, crédibilité et autorité.
             </p>
+
+            <!-- Feature Badges -->
+            <div class="hero-badges fade-in delay-2">
+              <div class="hero-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+                <span>15 vidéos professionnelles</span>
+              </div>
+              <div class="hero-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                <span>Coaching + stratégie inclus</span>
+              </div>
+              <div class="hero-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                <span>Optimisées pour Reels, Shorts & TikTok</span>
+              </div>
+            </div>
+
+            <p class="hero-objective fade-in delay-2">
+              <strong>Objectif :</strong> faire de vous une voix <em>reconnue</em>, pas juste visible.
+            </p>
+
+            <!-- Guarantee & Price -->
+            <div class="hero-offer fade-in delay-3">
+              <div class="hero-guarantee">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span>10 000 vues cumulées ou <strong>50 % remboursé</strong></span>
+              </div>
+              <div class="hero-price">
+                <span class="price-amount">499 $</span>
+                <span class="price-limit">15 experts par mois</span>
+              </div>
+            </div>
+
             <div class="hero-actions fade-in delay-3">
-              <a href="#contact" class="btn btn-lg btn-primary"
-                >Je veux donner de l'écho à ma voix</a
-              >
+              <a href="#application-form" class="btn btn-lg btn-primary">Je veux devenir une référence</a>
             </div>
           </div>
           <div class="hero-image-wrapper fade-in delay-2">
-            <img src="assets/Art.png" alt="" class="hero-decoration floating" />
-             <img src="assets/42295.jpg" alt="Expert Professional" class="hero-main-image" />
-          
+            <img
+              src="assets/Art.png"
+              alt=""
+              class="hero-decoration floating"
+              loading="eager"
+              decoding="async"
+            />
+            <div class="hero-slideshow" id="heroSlideshow">
+               <!-- <img src="assets/Me holding a camera.jpg" class="slide active" alt="Professional 1">-->
+                <img src="assets/Myke by B.Wilson.jpg" class="slide" alt="Professional 2">
+                <img src="assets/42295.jpg" class="slide" alt="Professional 3">
+                <img src="assets/_DSC0057-1.jpg" class="slide" alt="Professional 4">
+                <img src="assets/_DSC9956-1.jpg" class="slide" alt="Professional 5">
+                <img src="assets/Epizod_1.00_00_06_18.Still001.jpg" class="slide" alt="Professional 6">
+                <div class="slideshow-dots" id="slideshowDots">
+                  <span class="dot active"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                </div>
+            </div>
           </div>
         </div>
         <div class="hero-background"></div>
       </section>
-      
-      <!-- DEMO GALLERY -->
+
+      <!-- THE PROBLEM -->
+      <section class="section section-pain">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">
+              Le problème n’est pas votre expertise.<br />
+              <span class="gradient-text">C’est son invisibilité.</span>
+            </h2>
+            <p class="section-subtitle">
+              Vous savez de quoi vous parlez. Vous avez de l’expérience. Mais...
+            </p>
+          </div>
+
+          <div class="grid layout-4-col">
+            <div class="card card-pain">
+              <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline><polyline points="16 17 22 17 22 11"></polyline></svg></div>
+              <h3>Manque d'impact</h3>
+              <p>Vos prises de parole ne marquent pas les esprits.</p>
+            </div>
+            <div class="card card-pain">
+              <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+              <h3>Faible rétention</h3>
+              <p>Vos vidéos n’accrochent pas assez longtemps.</p>
+            </div>
+            <div class="card card-pain">
+              <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path></svg></div>
+              <h3>Pas de stratégie</h3>
+              <p>Vous publiez au hasard, sans vraie direction.</p>
+            </div>
+            <div class="card card-pain">
+              <div class="card-icon"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+              <h3>Audience stagnante</h3>
+              <p>Votre communauté ne grandit pas à la hauteur de votre valeur.</p>
+            </div>
+          </div>
+
+          <div class="pain-summary">
+            <p>
+              Pendant ce temps, d’autres — parfois moins qualifiés — occupent
+              l’espace. La différence n’est pas le talent. <br /><strong
+                >C’est la maîtrise des formats qui attirent l’attention.</strong
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- THE SOLUTION -->
+      <section class="section section-solution bg-darker">
+        <div class="container">
+          <div class="split-layout">
+            <div class="split-content">
+              <h2 class="section-title">
+                La solution : <span class="gradient-text">Un système</span>,<br />
+                pas de la magie
+              </h2>
+              <p>
+                Chez KreyatiVox, nous ne faisons pas de promesses vagues. Nous
+                appliquons une <strong>méthode structurée</strong>, inspirée des
+                mécaniques réelles de viralité et d’autorité.
+              </p>
+              <p>
+                <strong>Expert Voices</strong>, c’est un accompagnement complet
+                qui transforme votre expertise en contenus conçus pour
+                performer.
+              </p>
+              
+              <div style="margin-top: 2rem;">
+                  <h3 style="margin-bottom: 1.5rem;">Ce que comprend Expert Voices :</h3>
+                  <ul class="check-list">
+                    <li>
+                        <strong>Écriture orientée viralité</strong><br>
+                        <span class="text-muted">Hooks, storytelling, structure AIDA. On capte l'attention dès la première seconde.</span>
+                    </li>
+                    <li>
+                        <strong>Coaching devant la caméra</strong><br>
+                        <span class="text-muted">Posture, diction, regard. Vous devenez naturel, crédible et impactant.</span>
+                    </li>
+                    <li>
+                        <strong>Structure de rétention maximale</strong><br>
+                        <span class="text-muted">Rythme, montage dynamique, micro-suspense. Vos vidéos sont regardées jusqu'au bout.</span>
+                    </li>
+                    <li>
+                        <strong>Optimisation Plateformes</strong><br>
+                        <span class="text-muted">Formats, hashtags, timing. Vos contenus sont prêts pour Reels, TikTok et Shorts.</span>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="split-visual">
+              <div style="position: relative">
+                <img
+                  src="assets/Me holding a camera.jpg"
+                  alt="Production Setup"
+                  class="visual-image"
+                  style="border-radius: var(--radius-lg); width: 100%; height: auto;"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DEMO GALLERY (RETAINED AS PROOF) -->
       <section class="section section-demos">
         <div class="container">
           <div class="section-header">
-            <h2 class="section-title">À quoi ça ressemble ?</h2>
+            <h2 class="section-title">Viralité, Constance et Statut</h2>
             <p class="section-subtitle">
-              Des formats verticaux, optimisés pour l'attention, qui positionnent
-              immédiatement votre expertise.
+              Nos vidéos ne sont pas du bruit. Elles construisent une perception d’autorité.
             </p>
           </div>
 
           <div class="grid layout-3-col demo-grid">
-            
-            <!-- Video 1 (TikTok) -->
+            <!-- Video 1 (TikTok Facade) -->
             <div class="demo-item">
-              <div class="video-container">
-                <blockquote
-                  class="tiktok-embed"
-                  cite="https://www.tiktok.com/@kreyativox/video/7421310142932716806"
-                  data-video-id="7421310142932716806"
-                  style="max-width: 605px; min-width: 325px"
-                >
-                  <section>
-                    <a
-                      target="_blank"
-                      title="@kreyativox"
-                      href="https://www.tiktok.com/@kreyativox?refer=embed"
-                      >@kreyativox</a
-                    >
-                  </section>
-                </blockquote>
+              <div class="video-container tiktok-facade" data-tiktok-id="7421310142932716806">
+                <img src="assets/Myke by B.Wilson.jpg" alt="TikTok Video" class="video-thumb" loading="lazy" />
+                <div class="play-overlay">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                </div>
               </div>
-              <p class="demo-caption">Exemple 1 (TikTok)</p>
             </div>
 
-            <!-- Video 2 (YouTube: zAqQ8nMSPvw) -->
+            <!-- Video 2 (YouTube) -->
             <div class="demo-item">
               <div
                 class="video-container youtube-facade"
@@ -125,415 +264,436 @@
                   src="https://img.youtube.com/vi/zAqQ8nMSPvw/hqdefault.jpg"
                   alt="Video Thumbnail"
                   class="video-thumb"
+                  loading="lazy"
                 />
-                <div class="play-overlay">▶</div>
+                <div class="play-overlay">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                </div>
               </div>
-              <p class="demo-caption">Exemple 2 (YouTube)</p>
             </div>
 
-            <!-- Video 3 (TikTok) - User asked for this as 3rd -->
+            <!-- Video 3 (TikTok Facade) -->
             <div class="demo-item">
-              <div class="video-container">
-                <blockquote
-                  class="tiktok-embed"
-                  cite="https://www.tiktok.com/@kreyativox/video/7466358551984803078"
-                  data-video-id="7466358551984803078"
-                  style="max-width: 605px; min-width: 325px"
-                >
-                  <section>
-                    <a
-                      target="_blank"
-                      title="@kreyativox"
-                      href="https://www.tiktok.com/@kreyativox?refer=embed"
-                      >@kreyativox</a
-                    >
-                  </section>
-                </blockquote>
-              </div>
-              <p class="demo-caption">Exemple 3 (TikTok)</p>
-            </div>
-
-            <!-- Video 4 (YouTube: YoXM_OXnlHE) -->
-            <div class="demo-item">
-              <div
-                class="video-container youtube-facade"
-                data-youtube-id="YoXM_OXnlHE"
-              >
-                <img
-                  src="https://img.youtube.com/vi/YoXM_OXnlHE/hqdefault.jpg"
-                  alt="Video Thumbnail"
-                  class="video-thumb"
-                />
-                <div class="play-overlay">▶</div>
-              </div>
-              <p class="demo-caption">Exemple 4 (YouTube)</p>
-            </div>
-
-            <!-- Video 5 (YouTube: KFQY53nycds) -->
-            <div class="demo-item">
-              <div
-                class="video-container youtube-facade"
-                data-youtube-id="KFQY53nycds"
-              >
-                <img
-                  src="https://img.youtube.com/vi/KFQY53nycds/hqdefault.jpg"
-                  alt="Video Thumbnail"
-                  class="video-thumb"
-                />
-                <div class="play-overlay">▶</div>
-              </div>
-              <p class="demo-caption">Exemple 5 (YouTube)</p>
-            </div>
-
-            <!-- Video 6 (TikTok: Added by Request) -->
-            <div class="demo-item">
-              <div class="video-container">
-                <blockquote
-                  class="tiktok-embed"
-                  cite="https://www.tiktok.com/@kreyativox/video/7421690279670942982"
-                  data-video-id="7421690279670942982"
-                  style="max-width: 605px; min-width: 325px"
-                >
-                  <section>
-                    <a
-                      target="_blank"
-                      title="@kreyativox"
-                      href="https://www.tiktok.com/@kreyativox?refer=embed"
-                      >@kreyativox</a
-                    >
-                  </section>
-                </blockquote>
-              </div>
-              <p class="demo-caption">Exemple 6 (TikTok)</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- PAIN POINTS -->
-      <section class="section section-pain">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">La réalité des experts aujourd'hui</h2>
-            <p class="section-subtitle">
-              Vous avez des années d'expérience... Pourtant, il existe un fossé
-              entre votre expertise et votre présence en ligne.
-            </p>
-          </div>
-
-          <div class="grid layout-3-col">
-            <div class="card card-pain">
-              <div class="card-icon">
-                <!-- Clock Icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-              </div>
-              <h3>Manque de temps ?</h3>
-              <p>
-                Vous êtes trop occupé à gérer votre activité pour créer du
-                contenu régulièrement.
-              </p>
-            </div>
-            <div class="card card-pain">
-              <div class="card-icon">
-                <!-- Settings/Gear Icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
-              </div>
-              <h3>Barrière technique ?</h3>
-              <p>
-                Vous ne voulez pas gérer l'éclairage, le son ou les logiciels de
-                montage.
-              </p>
-            </div>
-            <div class="card card-pain">
-              <div class="card-icon">
-                <!-- Layers/Structure Icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
-              </div>
-              <h3>Manque de structure ?</h3>
-              <p>
-                Vous ne savez pas comment transformer des idées complexes en
-                vidéos percutantes de 60 secondes.
-              </p>
-            </div>
-          </div>
-
-          <div class="pain-summary">
-            <p>
-              Résultat : <strong>votre voix reste inaudible</strong> pendant que
-              d'autres dominent la conversation.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- WHY SHORT VIDEO -->
-      <section class="section section-why">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">
-              Pourquoi la vidéo courte est indispensable ?
-            </h2>
-            <p class="section-subtitle">
-              Sur Instagram Reels, TikTok et YouTube Shorts, il ne s'agit pas de
-              "devenir viral", mais de croissance professionnelle.
-            </p>
-          </div>
-
-          <div class="grid layout-3-col feature-grid">
-            <div class="feature-item">
-              <h3 class="feature-title">Bâtir la confiance</h3>
-              <p>
-                La vidéo crée une connexion humaine que le texte ne peut égaler.
-              </p>
-            </div>
-            <div class="feature-item">
-              <h3 class="feature-title">Se positionner</h3>
-              <p>Devenez l'autorité de référence dans votre domaine.</p>
-            </div>
-            <div class="feature-item">
-              <h3 class="feature-title">Croissance organique</h3>
-              <p>
-                Touchez de nouveaux clients et abonnés même pendant que vous
-                dormez.
-              </p>
-            </div>
-          </div>
-
-          <div class="quote-block">
-            <blockquote>
-              "On ne suit pas des marques. On suit des visages et des voix."
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-solution bg-darker">
-        <div class="container">
-          <div class="split-layout">
-            <div class="split-content">
-              <h2 class="section-title">
-                La solution <span class="gradient-text">Expert Voices</span>
-              </h2>
-              <p>
-                La plupart des professionnels échouent dans leur création de
-                contenu parce que la logistique est trop lourde.
-                <strong>Expert Voices élimine tous ces obstacles.</strong>
-              </p>
-              <p>
-                Nous ne nous contentons pas de filmer ; nous structurons votre
-                message pour un impact maximal. Vous parlez de ce que vous
-                maîtrisez, nous nous occupons du reste.
-              </p>
-
-              <div class="target-audience">
-                <h3>Est-ce pour vous ?</h3>
-                <p>
-                  Si l'on vient déjà vous voir pour demander conseil, alors ce
-                  programme est fait pour vous. Nous accompagnons
-                  particulièrement :
-                </p>
-                <ul class="check-list">
-                  <li>Coachs, formateurs et consultants</li>
-                  <li>Entrepreneurs et dirigeants</li>
-                  <li>Professionnels de santé</li>
-                  <li>Avocats et leaders d'ONG</li>
-                </ul>
-              </div>
-            </div>
-            <div class="split-visual">
-              <div style="position: relative;">
-                <img
-                  src="assets/hero-4-1.png"
-                  alt="Production Setup Illustration"
-                  class="visual-image"
-                />
-                <!-- Subtly reuse the astronaut or another element if appropriate, otherwise simple glow -->
-                <div style="position: absolute; bottom: -20px; right: -20px; z-index: -1; width: 100%; height: 100%; background: var(--primary); filter: blur(60px); opacity: 0.2; border-radius: 50%;"></div>
+              <div class="video-container tiktok-facade" data-tiktok-id="7466358551984803078">
+                <img src="assets/42295.jpg" alt="TikTok Video" class="video-thumb" loading="lazy" />
+                <div class="play-overlay">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- TRANSITION: PHILOSOPHY -->
+      <section class="section bg-darker text-center">
+          <div class="container">
+              <div class="quote-block" style="border: none; margin: 0; padding: 0;">
+                  <h2 style="font-size: 3rem; margin-bottom: 2rem;">Viral est le moyen.<br><span class="gradient-text">Statut est l’objectif.</span></h2>
+                  <div class="grid layout-3-col" style="text-align: left; max-width: 900px; margin: 0 auto;">
+                      <div class="feature-item" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md);">
+                          <h3 class="feature-title">Attention</h3>
+                          <p>La viralité attire l'attention massive.</p>
+                      </div>
+                      <div class="feature-item" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md);">
+                          <h3 class="feature-title">Reconnaissance</h3>
+                          <p>La constance crée la familiarité.</p>
+                      </div>
+                      <div class="feature-item" style="border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-md);">
+                          <h3 class="feature-title">Statut</h3>
+                          <p>La structure construit votre autorité.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
 
-
-
-      <!-- THE OFFER -->
+      <!-- WHAT YOU GET -->
       <section class="section section-offer">
         <div class="container">
           <div class="offer-card">
             <div class="offer-header">
-              <h2 class="offer-title">Le Pack Expert Voices</h2>
+              <h2 class="offer-title">Ce que vous obtenez concrètement</h2>
               <p class="offer-subtitle">
-                Tout ce dont vous avez besoin pour un mois complet de contenu
-                d'autorité.
+                Plus qu'une simple production, un actif pour votre marque personnelle.
               </p>
-              <div class="price-tag">
-                <span class="currency">$</span>
-                <span class="amount">499</span>
-                <span class="currency">USD</span>
-              </div>
             </div>
 
-            <div class="offer-grid">
-              <div class="offer-feature">
-                <span class="offer-icon">
-                  <!-- Camera Icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"></path><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
-                </span>
-                <div>
-                  <h4>15 Vidéos Courtes</h4>
-                  <p>Clips percutants de 30 à 60 secondes.</p>
+            <div class="offer-features-premium">
+              <div class="feature-card-premium">
+                <div class="feature-number">01</div>
+                <div class="feature-icon-premium">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
                 </div>
+                <h4>15 Vidéos Pro</h4>
+                <p>Formats verticaux optimisés, prêts à publier.</p>
               </div>
-              <div class="offer-feature">
-                <span class="offer-icon">
-                  <!-- Smartphone Icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
-                </span>
-                <div>
-                  <h4>Formats Optimisés</h4>
-                  <p>Format vertical prêt pour Reels, TikTok et Shorts.</p>
+              <div class="feature-card-premium">
+                <div class="feature-number">02</div>
+                <div class="feature-icon-premium">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
                 </div>
+                <h4>Message Percutant</h4>
+                <p>Cohérent, répété et mémorable.</p>
               </div>
-              <div class="offer-feature">
-                <span class="offer-icon">
-                  <!-- Lightbulb Icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="9" y1="18" x2="15" y2="18"></line><line x1="10" y1="22" x2="14" y2="22"></line><path d="M15.09 14c.18-.9.93-1.54 1.86-1.78A6 6 0 0 0 12 2a6 6 0 0 0-5.87 8.16l2.16 2.16c.15.15.38.24.6.24h6.1z"></path></svg>
-                </span>
-                <div>
-                  <h4>Production Premium</h4>
-                  <p>
-                    Éclairage professionnel, son cristallin et cadrage soigné.
-                  </p>
+              <div class="feature-card-premium">
+                <div class="feature-number">03</div>
+                <div class="feature-icon-premium">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
                 </div>
+                <h4>Présence Crédible</h4>
+                <p>Référence identifiable dans votre secteur.</p>
               </div>
-              <div class="offer-feature">
-                <span class="offer-icon">
-                  <!-- Sparkles/Star Icon -->
-                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                </span>
-                <div>
-                  <h4>Montage Dynamique</h4>
-                  <p>Coupes fluides et bandeaux de marque (nom + titre).</p>
+              <div class="feature-card-premium">
+                <div class="feature-number">04</div>
+                <div class="feature-icon-premium">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
                 </div>
+                <h4>Autorité Établie</h4>
+                <p>Passez de créateur isolé à voix suivie.</p>
               </div>
+            </div>
+            
+            <div class="price-section" style="margin: 3rem 0; border-top: 1px solid var(--primary); border-bottom: 1px solid var(--primary); padding: 2rem 0;">
+                <h3 style="margin-bottom: 1rem;">Investissement</h3>
+                <div class="price-tag">
+                    <span class="currency">$</span>
+                    <span class="amount">499</span>
+                    <span class="currency">USD</span>
+                </div>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">15 vidéos – Accompagnement complet</p>
+                <div style="background: rgba(245, 158, 11, 0.1); color: var(--accent); display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border-radius: 4px; margin-top: 1rem; font-weight: bold;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg> Limité à 15 experts par mois
+                </div>
             </div>
 
             <div class="offer-cta">
-              <a href="#contact" class="btn btn-lg btn-white"
-                >Réserver ma session</a
+              <a href="#application-form" class="btn btn-lg btn-white"
+                >Je réserve ma place</a
               >
             </div>
           </div>
         </div>
       </section>
 
-      <!-- CONTENT STRUCTURE -->
-      <section class="section section-structure">
-        <div class="container">
-          <div class="section-header">
-            <h2 class="section-title">Une structure de contenu stratégique</h2>
-            <p class="section-subtitle">
-              Plus besoin de deviner quoi dire. Vos 15 vidéos suivent une
-              structure prouvée :
-            </p>
+      <!-- GUARANTEE -->
+      <section class="section" style="background: rgba(255,255,255,0.02);">
+          <div class="container text-center" style="max-width: 800px;">
+              <h2 class="section-title">Une méthode, pas des promesses en l'air</h2>
+              <p style="margin-bottom: 2rem; font-size: 1.1rem;">
+                  Nous savons que la confiance se gagne. C’est pourquoi nous partageons le risque.
+              </p>
+              <div style="border: 2px solid var(--primary); padding: 2rem; border-radius: var(--radius-lg); background: rgba(4, 142, 214, 0.05);">
+                  <h3 style="color: var(--primary); margin-bottom: 1rem;">GARANTIE DE RÉSULTAT</h3>
+                  <p style="font-size: 1.1rem; line-height: 1.6;">
+                      Si, après application complète de notre méthode (contenu, coaching et publication), 
+                      vos vidéos publiées n’atteignent pas <strong>10 000 vues cumulées</strong>, 
+                      vous avez le droit de réclamer un <strong>remboursement de 50 % du service</strong>.
+                  </p>
+                  <p style="margin-top: 1.5rem; font-weight: 600;">
+                      Pas de discours flou. Une méthode + une responsabilité partagée.
+                  </p>
+              </div>
           </div>
+      </section>
 
-          <div class="grid layout-4-col">
-            <div class="step-card fade-in delay-1">
-              <div class="step-number">01</div>
-              <h3>Identité</h3>
-              <p>Qui vous êtes et quels problèmes vous résolvez.</p>
-            </div>
-            <div class="step-card fade-in delay-2">
-              <div class="step-number">02</div>
-              <h3>Expertise</h3>
-              <p>Secrets du métier et analyses de votre secteur.</p>
-            </div>
-            <div class="step-card fade-in delay-3">
-              <div class="step-number">03</div>
-              <h3>Éducation</h3>
-              <p>Erreurs communes à éviter et leçons apprises.</p>
-            </div>
-            <div class="step-card fade-in delay-4">
-              <div class="step-number">04</div>
-              <h3>Influence</h3>
-              <p>Conseils, perspectives et appels à l'action clairs.</p>
-            </div>
+      <!-- TARGET AUDIENCE -->
+      <section class="section">
+          <div class="container">
+              <h2 class="section-title text-center">À qui s’adresse Expert Voices ?</h2>
+              <div class="grid layout-3-col" style="margin-top: 3rem;">
+                  <ul class="check-list">
+                      <li>Coaches et consultants</li>
+                      <li>Entrepreneurs et dirigeants</li>
+                      <li>Professionnels de la santé</li>
+                      <li>Leaders d’opinion</li>
+                  </ul>
+                  <ul class="check-list">
+                      <li>Cadres d’entreprise</li>
+                      <li>Avocats et Juristes</li>
+                      <li>Secteur économique / Finance</li>
+                  </ul>
+                  <ul class="check-list">
+                      <li>Responsables de projets</li>
+                      <li>ONG et institutions</li>
+                      <li>Experts métiers</li>
+                  </ul>
+              </div>
+              <div class="text-center" style="margin-top: 3rem;">
+                  <p class="section-subtitle">
+                      Si vous avez de l’expérience réelle, mais que votre visibilité ne reflète pas votre valeur, ce programme est fait pour vous.
+                  </p>
+              </div>
           </div>
-        </div>
       </section>
 
       <!-- HOW IT WORKS -->
-      <section class="section section-process">
+      <section class="section section-process bg-darker">
         <div class="container">
-          <h2 class="section-title text-center">Comment ça marche ?</h2>
-          <div class="process-timeline">
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-content">
-                <h3>1. Découverte</h3>
-                <p>Planification stratégique et rédaction de vos scripts.</p>
+          <div class="section-header">
+            <h2 class="section-title">Comment ça marche ?</h2>
+            <p class="section-subtitle">Un processus simple en 4 étapes pour transformer votre expertise en contenu premium</p>
+          </div>
+
+          <div class="process-steps">
+            <div class="process-step">
+              <div class="step-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              </div>
+              <div class="step-number-badge">1</div>
+              <h3>Candidature & Paiement</h3>
+              <p>Validez votre candidature et réglez le service pour démarrer.<br><span style="font-size: 0.9em; color: var(--text-muted); display: block; margin-top: 4px;">Nous acceptons virement bancaire, chèque, ou cash.</span></p>
+            </div>
+            <div class="step-connector"></div>
+            <div class="process-step">
+              <div class="step-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              </div>
+              <div class="step-number-badge">2</div>
+              <h3>Discussion Stratégique</h3>
+              <p>On convertit votre expertise en 15 shorts vidéos virales, en adaptant votre script</p>
+            </div>
+            <div class="step-connector"></div>
+            <div class="process-step">
+              <div class="step-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+              </div>
+              <div class="step-number-badge">3</div>
+              <h3>Tournage</h3>
+              <p>Session de tournage professionnelle avec coaching et direction artistique</p>
+            </div>
+            <div class="step-connector"></div>
+            <div class="process-step">
+              <div class="step-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+              </div>
+              <div class="step-number-badge">4</div>
+              <h3>Livraison</h3>
+              <p>15 vidéos optimisées, prêtes à publier sur toutes les plateformes</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ SECTION -->
+      <section class="section section-faq">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Questions Fréquentes</h2>
+            <p class="section-subtitle">Tout ce que vous devez savoir sur Expert Voices</p>
+          </div>
+
+          <div class="faq-list">
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Combien de temps dure le tournage ?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Le tournage peut durer une demi-journée (1-4 heures dépendamment de votre expérience devant la caméra). Ce temps inclut la préparation, le coaching devant la caméra, et l'enregistrement de tous vos contenus. Nous optimisons chaque minute pour maximiser le nombre de prises utilisables.</p>
               </div>
             </div>
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-content">
-                <h3>2. La Session</h3>
-                <p>Une séance de tournage dirigée et professionnelle.</p>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Puis-je utiliser les vidéos partout ?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Oui, absolument ! Vous êtes propriétaire de tous les contenus produits. Vous pouvez les utiliser sur toutes les plateformes (TikTok, Instagram, YouTube, LinkedIn), sur votre site web, dans vos présentations, et même à des fins publicitaires.</p>
               </div>
             </div>
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-content">
-                <h3>3. La Magie</h3>
-                <p>Notre équipe assure le montage et l'habillage graphique.</p>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Dois-je écrire mes propres scripts ?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Oui, mais nous vous accompagnons dans l'écriture des scripts optimisés pour la viralité. Nous travaillons avec vous pour identifier vos messages clés, puis nous les structurons selon les meilleures pratiques : hooks accrocheurs, storytelling, et appels à l'action efficaces.</p>
               </div>
             </div>
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-content">
-                <h3>4. Livraison</h3>
-                <p>Vous recevez 15 vidéos prêtes à être publiées.</p>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Et si je ne suis pas à l'aise devant la caméra ?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="faq-answer">
+                <p>C'est justement là que notre coaching fait la différence. Nous travaillons votre posture, votre diction et votre regard. La plupart de nos clients étaient nerveux au début et ont été surpris par leur aisance à la fin du tournage. Dans le cas où vous avez besoin de plus de temps pour vous préparer, nous vous l'accorderons.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Comment fonctionne la garantie ?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
+              <div class="faq-answer">
+                <p>Si, après publication de toutes vos vidéos selon nos recommandations, vous n'atteignez pas 10 000 vues cumulées dans les 30 jours, vous pouvez réclamer un remboursement de 50% du service. C'est notre engagement envers votre succès.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- FOOTER / CTA -->
       <!-- BIO / ABOUT SECTION -->
-      <section class="section section-about">
+       <section class="section section-about">
         <div class="container">
           <div class="split-layout">
              <div class="split-visual">
                 <div class="bio-image-wrapper">
-                  <img src="assets/Woman.png" alt="Équipe Expert Voices" class="bio-image" style="mask-image: none; -webkit-mask-image: none; filter: none; width: 100%; border-radius: var(--radius-lg);" />
+                  <img src="assets/Woman.png" alt="Équipe Expert Voices" class="bio-image" loading="lazy" decoding="async" style="mask-image: none; -webkit-mask-image: none; filter: none; width: 100%; border-radius: var(--radius-lg);" />
                 </div>
              </div>
              <div class="split-content">
-               <h2 class="section-title">Derrière Expert Voices</h2>
-               <p>
-                 Nous sommes une équipe de réalisateurs, stratèges et créateurs de contenu passionnés par l'impact.
+               <h2 class="section-title">KreyatiVox</h2>
+               <p style="font-size: 1.2rem; font-weight: 500; margin-bottom: 1rem;">
+                 Nous donnons une voix visible à ceux qui ont quelque chose d’important à dire.
                </p>
                <p>
-                 Notre mission est simple : donner aux véritables experts les moyens de reprendre la parole dans un monde saturé de bruit. Nous croyons que la compétence mérite d'être vue.
+                 Ici, la viralité n’est pas une fin. C’est un levier. Le véritable objectif, c’est votre statut d’expert.
                </p>
-               <div class="bio-stats">
-                  <div class="stat-item">
-                    <span class="stat-number">2.1M+</span>
-                    <span class="stat-label">Vues générées</span>
-                  </div>
-                  <div class="stat-item">
-                    <span class="stat-number">12+</span>
-                    <span class="stat-label">Experts accompagnés</span>
-                  </div>
-               </div>
              </div>
           </div>
         </div>
       </section>
+
+       <!-- APPLICATION FORM -->
+       <section class="section application-section" id="application-form">
+        <div class="container">
+            <div class="form-card">
+                <div class="form-header">
+                    <h2 class="form-title">Devenez une référence visible, pas un expert invisible</h2>
+                    <p class="form-subtitle">Votre expertise mérite plus que quelques likes</p>
+                </div>
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="612c0460-82c8-4df1-a997-0b5d372d2514">
+                    <!-- Optional: Custom Redirection -->
+                    <input type="hidden" name="redirect" value="thanks.html">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>Nom & Prénom</label>
+                            <input type="text" name="name" class="form-input" placeholder="Votre Nom & Prénom" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><line x1="8" y1="6" x2="16" y2="6"></line><line x1="8" y1="10" x2="16" y2="10"></line><line x1="8" y1="14" x2="12" y2="14"></line></svg>Profession / Organisation</label>
+                            <input type="text" name="profession" class="form-input" placeholder="Votre Profession / Organisation" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>Secteur / Domaine</label>
+                            <input type="text" name="sector" class="form-input" placeholder="Votre Secteur" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">⏳ Années d’expérience</label>
+                            <input type="text" name="experience" class="form-input" placeholder="X années" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>Disponibilité de Tournage</label>
+                            <select name="shooting_date" class="form-select" required>
+                                <option value="" disabled selected>Choisissez une période idéale</option>
+                                <option value="Semaine prochaine">Semaine prochaine</option>
+                                <option value="Ce mois-ci">Ce mois-ci</option>
+                                <option value="Mois prochain">Mois prochain</option>
+                                <option value="Flexible">Je suis flexible</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>Expertise principale</label>
+                        <textarea name="expertise" class="form-textarea" rows="2" placeholder="Décrivez brièvement votre expertise" required></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>Objectif principal</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="goals[]" value="Crédibilité">
+                                    <span>Renforcer ma crédibilité</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="goals[]" value="Partage">
+                                    <span>Partager mon expertise</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="goals[]" value="Audience">
+                                    <span>Développer une audience qualifiée</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="checkbox" name="goals[]" value="Référence">
+                                    <span>Devenir une référence visible</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>Situation actuelle</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox-item">
+                                    <input type="radio" name="situation" value="Inexistante">
+                                    <span>Inexistante</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="radio" name="situation" value="Irrégulière">
+                                    <span>Irrégulière</span>
+                                </label>
+                                <label class="checkbox-item">
+                                    <input type="radio" name="situation" value="Présente mais peu structurée">
+                                    <span>Présente mais peu structurée</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>Pourquoi Expert Voices ?</label>
+                        <textarea name="why_interest" class="form-textarea" rows="3" required>Je recherche un accompagnement sérieux qui va au-delà du simple tournage, avec une vraie méthode (contenu, présence caméra, structure et publication).</textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>Engagement</label>
+                        <div class="checkbox-group">
+                             <label class="checkbox-item">
+                                <input type="checkbox" name="commitment" required checked>
+                                <span>Je suis prêt(e) à suivre les recommandations et à appliquer la méthode proposée</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>Téléphone (Haïti)</label>
+                        <input type="tel" name="contact" id="phoneInput" class="form-input" placeholder="+509 XXXX XXXX" pattern="^\+?509[0-9]{8}$|^[0-9]{8}$" title="Numéro haïtien: +509 suivi de 8 chiffres" oninput="this.value = this.value.replace(/[^0-9+\s]/g, '')" required>
+                        <small style="color: var(--text-muted); font-size: 0.8rem; display: block; margin-top: 0.5rem;">Format: +509 3XXX XXXX ou 3XXX XXXX</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 6px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>Message final</label>
+                        <textarea name="message" class="form-textarea" rows="3" required>Bonjour KreyatiVox, je souhaite rejoindre le programme Expert Voices afin de structurer et renforcer ma visibilité professionnelle.</textarea>
+                    </div>
+
+                    <div class="guarantee-reminder">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -3px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></span> 
+                        <span>Garantie : 50% remboursé si < 10k vues. Limité à 15 experts/mois.</span>
+                    </div>
+
+                    <div class="submit-btn-wrapper">
+                        <button type="submit" class="btn btn-lg btn-primary">Envoyer ma candidature</button>
+                    </div>
+                    <p class="form-note">Vos informations restent confidentielles.</p>
+                </form>
+            </div>
+        </div>
+       </section>
+      </main>
 
       <!-- FOOTER / CTA -->
       <footer class="footer" id="contact">
@@ -552,9 +712,9 @@
 
             <div class="cta-buttons">
               <a
-                href="mailto:contact@kreyativox.com"
+                href="#application-form"
                 class="btn btn-lg btn-primary"
-                >Contactez-nous pour commencer</a
+                >Postuler maintenant</a
               >
               <a
                 href="https://wa.me/50932808202"
@@ -568,6 +728,31 @@
                 WhatsApp
               </a>
             </div>
+            
+            <!-- Footer Bio Section -->
+            <div class="footer-bio" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; align-items: center; max-width: 700px; margin-left: auto; margin-right: auto; text-align: left;">
+              <img src="assets/Me holding a camera.jpg" alt="Dir Wilson" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid var(--primary);">
+              <div>
+                <p class="text-gray" style="font-size: 13px; margin: 0 0 10px 0; font-style: italic; color: var(--text-muted);">
+                    "Après près de 5 ans d’expérience au sein d’AyiboPost et près de 8 ans dans la création de vidéos engageantes, dynamiques et spécialisées, j’ai lancé KreyatiVox, un projet qui a généré plus de 1,8 million de vues en moins de trois mois, en s’appuyant sur cette même stratégie de contenu."
+                </p>
+                <p class="text-gray" style="font-size: 13px; margin: 0 0 10px 0; font-style: italic; color: var(--text-muted);">
+                    "Aujourd’hui, je me consacre à l’accompagnement des professionnels et experts souhaitant renforcer, structurer et crédibiliser leur image ainsi que leur branding professionnel."
+                </p>
+                <p class="text-gray" style="font-size: 13px; margin: 0 0 5px 0; color: white;">
+                    <strong>Wilson Saintelus</strong><br>
+                    Filmmaker & Digital Marketer
+                </p>
+              </div>
+            </div>
+
+            <div style="margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
+              <a href="terms.html" style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.9rem;">Conditions Générales</a>
+              <span style="color: rgba(255,255,255,0.3); margin: 0 10px;">|</span>
+              <span style="color: rgba(255,255,255,0.3); font-size: 0.9rem;">&copy; 2025 KreyatiVox</span>
+            </div>
+        </div>
+      </footer>
 
       <script>
         // Mobile Navigation Toggle
@@ -585,6 +770,72 @@
               navLinks.classList.remove("active");
             });
           });
+        }
+
+        // Phone Input Formatting
+        const phoneInput = document.getElementById('phoneInput');
+        if (phoneInput) {
+            const prefix = '+509 ';
+            
+            // Auto-add prefix on focus
+            phoneInput.addEventListener('focus', function(e) {
+                if (this.value === '') {
+                    this.value = prefix;
+                }
+            });
+
+            // Clear if empty on blur
+            phoneInput.addEventListener('blur', function(e) {
+                if (this.value === prefix || this.value === '+509') {
+                    this.value = '';
+                }
+            });
+
+            phoneInput.addEventListener('input', function(e) {
+                // Get all digits from input
+                let input = this.value;
+                let rawDigits = input.replace(/\D/g, '');
+                
+                // Remove the 509 prefix from digits if present (to avoid duplication)
+                if (rawDigits.startsWith('509')) {
+                    rawDigits = rawDigits.substring(3);
+                }
+                
+                // Limit to 8 digits (standard Haitian mobile/landline len)
+                if (rawDigits.length > 8) {
+                    rawDigits = rawDigits.substring(0, 8);
+                }
+
+                // Rebuild the formatted string
+                let formatted = prefix;
+                if (rawDigits.length > 0) {
+                    formatted += rawDigits.substring(0, 4);
+                }
+                if (rawDigits.length > 4) {
+                    formatted += ' ' + rawDigits.substring(4, 8);
+                }
+                
+                // Update value
+                this.value = formatted;
+            });
+            
+            phoneInput.addEventListener('keydown', function(e) {
+                // Allow control keys
+                if (['Backspace', 'Delete', 'ArrowLeft', 'ArrowRight', 'Tab', 'Home', 'End'].includes(e.key)) return;
+                
+                // Allow numbers
+                if (/^[0-9]$/.test(e.key)) return;
+                
+                // Strict block for everything else
+                if (!e.ctrlKey && !e.metaKey) {
+                    e.preventDefault();
+                }
+                
+                // Prevent deleting the prefix
+                if (e.key === 'Backspace' && this.selectionStart <= 5) {
+                    e.preventDefault();
+                }
+            });
         }
       </script>
       <script async src="https://www.tiktok.com/embed.js"></script>
@@ -625,6 +876,47 @@
       });
     </script>
     <script>
+      // TikTok Facade - Load on Click
+      document.querySelectorAll('.tiktok-facade').forEach((container) => {
+        container.addEventListener('click', () => {
+          const tiktokId = container.getAttribute('data-tiktok-id');
+          const blockquote = document.createElement('blockquote');
+          blockquote.className = 'tiktok-embed';
+          blockquote.setAttribute('cite', `https://www.tiktok.com/@kreyativox/video/${tiktokId}`);
+          blockquote.setAttribute('data-video-id', tiktokId);
+          blockquote.innerHTML = '<section><a target="_blank" href="https://www.tiktok.com/@kreyativox">@kreyativox</a></section>';
+          
+          container.innerHTML = '';
+          container.appendChild(blockquote);
+          container.classList.add('playing');
+          
+          // Load TikTok embed script
+          if (typeof tiktokEmbed !== 'undefined') {
+            tiktokEmbed.lib.render([blockquote]);
+          }
+        });
+      });
+    </script>
+    <script>
+      // FAQ Accordion
+      document.querySelectorAll('.faq-question').forEach((question) => {
+        question.addEventListener('click', () => {
+          const faqItem = question.parentElement;
+          const isOpen = faqItem.classList.contains('open');
+          
+          // Close all other FAQ items
+          document.querySelectorAll('.faq-item').forEach((item) => {
+            item.classList.remove('open');
+          });
+          
+          // Toggle current item
+          if (!isOpen) {
+            faqItem.classList.add('open');
+          }
+        });
+      });
+    </script>
+    <script>
       // Simple IntersectionObserver for fade-in animations
       const observerOptions = {
         root: null,
@@ -650,5 +942,46 @@
           observer.observe(el);
         });
     </script>
+      <script>
+        // Slideshow Script with Dot Indicators
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+        let currentSlide = 0;
+        const slideInterval = 5000; // 5 seconds
+
+        function updateSlideshow() {
+          slides[currentSlide].classList.remove('active');
+          dots[currentSlide].classList.remove('active');
+          currentSlide = (currentSlide + 1) % slides.length;
+          slides[currentSlide].classList.add('active');
+          dots[currentSlide].classList.add('active');
+        }
+
+        // Click on dot to jump to slide
+        dots.forEach((dot, index) => {
+          dot.addEventListener('click', () => {
+            slides[currentSlide].classList.remove('active');
+            dots[currentSlide].classList.remove('active');
+            currentSlide = index;
+            slides[currentSlide].classList.add('active');
+            dots[currentSlide].classList.add('active');
+          });
+        });
+
+        if (slides.length > 0) {
+          setInterval(updateSlideshow, slideInterval);
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+          const navLinks = document.querySelector('.nav-links');
+          const navToggle = document.querySelector('.nav-toggle');
+          if (navLinks && navLinks.classList.contains('active')) {
+            if (!navLinks.contains(e.target) && !navToggle.contains(e.target)) {
+              navLinks.classList.remove('active');
+            }
+          }
+        });
+      </script>
   </body>
 </html>
