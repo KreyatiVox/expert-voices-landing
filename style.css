@@ -1928,3 +1928,33 @@ ul {
     gap: 1rem;
   }
 }
+
+/* Stacked Price Display */
+.price-stack {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.hero-price .price-stack {
+    align-items: flex-start;
+}
+
+.price-section .price-stack {
+    align-items: center;
+}
+
+.price-main {
+  font-weight: 800;
+  color: white;
+  display: block;
+}
+
+.price-sub {
+  font-size: 0.5em; /* Relative to parent font size */
+  color: var(--text-muted);
+  font-weight: 400;
+  display: block;
+  margin-top: 4px;
+}
+
