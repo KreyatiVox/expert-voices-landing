@@ -2394,9 +2394,15 @@ ul {
     /* Replace border-image with standard border for rounded corners */
     border: 1px solid rgba(4, 142, 214, 0.3);
     border-radius: var(--radius-lg);
-    padding: 2.5rem 4rem; /* Reduced top/bottom padding */
+    padding: 2rem 4rem;
     position: relative;
     text-align: center;
+    
+    /* Enforce 16:9 Aspect Ratio */
+    aspect-ratio: 16/9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
     /* 3D Effect */
     box-shadow: 
