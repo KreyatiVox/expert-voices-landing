@@ -2384,52 +2384,46 @@ ul {
 }
 
 .guarantee-card {
-    max-width: 600px;
+    max-width: 750px;
     margin: 0 auto;
-    /* 3D Effect Container */
     perspective: 1000px;
 }
 
 .certificate-border {
-    background: linear-gradient(135deg, #0f161f 0%, #1a2332 100%);
-    
-    /* 3D Card Shape */
+    background: linear-gradient(145deg, #0d1117 0%, #161b22 100%);
+    /* Replace border-image with standard border for rounded corners */
+    border: 1px solid rgba(4, 142, 214, 0.3);
     border-radius: var(--radius-lg);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    
-    /* Deep Shadow & Transform for 3D Pop */
-    box-shadow: 
-        0 20px 50px -10px rgba(0, 0, 0, 0.5),
-        0 0 0 1px rgba(255, 255, 255, 0.05) inset;
-    transform: rotateX(5deg) translateY(-10px);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    
-    padding: 2.5rem 2rem;
+    padding: 3rem 2.5rem;
     position: relative;
     text-align: center;
-    /* Horizontal/Landscape Layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
+    /* 3D Effect */
+    box-shadow: 
+        0 10px 30px -10px rgba(0,0,0,0.5),
+        0 0 0 1px rgba(255, 255, 255, 0.05) inset,
+        0 20px 40px -20px rgba(4, 142, 214, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect to lift the card */
-.guarantee-card:hover .certificate-border {
-    transform: rotateX(0deg) translateY(-15px) scale(1.02);
+.certificate-border:hover {
+    transform: translateY(-5px);
     box-shadow: 
-        0 30px 60px -12px rgba(4, 142, 214, 0.15),
-        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+        0 15px 40px -10px rgba(0,0,0,0.6),
+        0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+        0 25px 50px -20px rgba(4, 142, 214, 0.3);
 }
 
 .certificate-border::before {
     content: '';
     position: absolute;
-    top: 6px;
-    left: 6px;
-    right: 6px;
-    bottom: 6px;
-    border: 1px dashed rgba(245, 158, 11, 0.3);
-    border-radius: var(--radius-md);
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    border: 1px solid rgba(245, 158, 11, 0.15);
+    border-radius: 16px; /* slightly smaller radius than parent */
     pointer-events: none;
 }
 
@@ -2534,7 +2528,7 @@ ul {
     line-height: 1;
     text-shadow: 0 0 20px rgba(4, 142, 214, 0.4);
 }
-
+}
 
 .highlight-label {
     font-size: 0.85rem;
