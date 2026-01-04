@@ -2384,7 +2384,7 @@ ul {
 }
 
 .guarantee-card {
-    max-width: 750px;
+    max-width: 600px;
     margin: 0 auto;
     perspective: 1000px;
 }
@@ -2394,12 +2394,12 @@ ul {
     /* Replace border-image with standard border for rounded corners */
     border: 1px solid rgba(4, 142, 214, 0.3);
     border-radius: var(--radius-lg);
-    padding: 2rem 4rem;
+    padding: 2rem 2.5rem;
     position: relative;
     text-align: center;
     
-    /* Enforce 16:9 Aspect Ratio */
-    aspect-ratio: 16/9;
+    /* 16:9 Aspect Ratio */
+    aspect-ratio: 16 / 9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2437,33 +2437,38 @@ ul {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 80px;
-    height: 80px;
+    width: 48px;
+    height: 48px;
     background: linear-gradient(145deg, rgba(245, 158, 11, 0.2) 0%, rgba(245, 158, 11, 0.05) 100%);
     border: 2px solid var(--accent);
     border-radius: 50%;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     color: var(--accent);
-    box-shadow: 0 0 30px rgba(245, 158, 11, 0.2);
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.2);
+}
+
+.certificate-seal svg {
+    width: 24px;
+    height: 24px;
 }
 
 .certificate-header {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .certificate-label {
     display: inline-block;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: 700;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.15em;
     color: var(--accent);
     text-transform: uppercase;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .certificate-title {
     font-family: var(--font-heading);
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: white;
     margin: 0;
@@ -2528,7 +2533,7 @@ ul {
 }
 
 .highlight-number {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     font-weight: 800;
     color: var(--primary);
     line-height: 1;
@@ -2536,7 +2541,7 @@ ul {
 }
 
 .highlight-label {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     font-weight: 600;
     color: var(--text-muted);
     text-transform: uppercase;
