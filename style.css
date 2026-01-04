@@ -2384,7 +2384,7 @@ ul {
 }
 
 .guarantee-card {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -2393,9 +2393,13 @@ ul {
     border: 2px solid transparent;
     border-image: linear-gradient(135deg, var(--accent) 0%, var(--primary) 50%, var(--accent) 100%) 1;
     border-radius: 0;
-    padding: 3rem 2.5rem;
+    padding: 4rem 5rem;
     position: relative;
     text-align: center;
+    /* Horizontal/Landscape Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .certificate-border::before {
@@ -2509,6 +2513,7 @@ ul {
     color: var(--primary);
     line-height: 1;
     text-shadow: 0 0 20px rgba(4, 142, 214, 0.4);
+}
 }
 
 .highlight-label {
