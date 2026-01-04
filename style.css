@@ -2384,7 +2384,7 @@ ul {
 }
 
 .guarantee-card {
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -2392,8 +2392,12 @@ ul {
     background: linear-gradient(145deg, #0d1117 0%, #161b22 100%);
     border: 2px solid transparent;
     border-image: linear-gradient(135deg, var(--accent) 0%, var(--primary) 50%, var(--accent) 100%) 1;
-    border-radius: 0;
-    padding: 4rem 5rem;
+    border-radius: var(--radius-lg); /* Rounded corners */
+    /* Fix for border-radius with border-image */
+    border: 2px solid var(--accent); 
+    border-image: none;
+    
+    padding: 3rem 2rem;
     position: relative;
     text-align: center;
     /* Horizontal/Landscape Layout */
@@ -2409,7 +2413,8 @@ ul {
     left: 10px;
     right: 10px;
     bottom: 10px;
-    border: 1px solid rgba(245, 158, 11, 0.2);
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    border-radius: var(--radius-md);
     pointer-events: none;
 }
 
