@@ -542,7 +542,7 @@
           <div class="container">
               <div class="guarantee-card">
                   <!-- Certificate Border -->
-                  <div class="certificate-border">
+                  <div class="certificate-border" id="guaranteeTiltCard">
                       <!-- Shield Icon -->
                       <div class="certificate-seal">
                           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -1324,6 +1324,58 @@
               }
           }
       });
+
+      // 3D Tilt Effect for Guarantee Card
+      (function() {
+          const card = document.getElementById('guaranteeTiltCard');
+          if (!card) return;
+          
+          const maxTilt = 15; // Maximum tilt angle in degrees
+          const glareOpacity = 0.15; // Glare intensity
+          
+          // Create glare element
+          const glare = document.createElement('div');
+          glare.style.cssText = `
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background: linear-gradient(105deg, rgba(255,255,255,0) 40%, rgba(255,255,255,${glareOpacity}) 45%, rgba(255,255,255,0) 50%);
+              pointer-events: none;
+              opacity: 0;
+              transition: opacity 0.3s ease;
+              border-radius: inherit;
+          `;
+          card.appendChild(glare);
+          
+          card.addEventListener('mousemove', (e) => {
+              const rect = card.getBoundingClientRect();
+              const x = e.clientX - rect.left;
+              const y = e.clientY - rect.top;
+              
+              const centerX = rect.width / 2;
+              const centerY = rect.height / 2;
+              
+              const rotateX = ((y - centerY) / centerY) * -maxTilt;
+              const rotateY = ((x - centerX) / centerX) * maxTilt;
+              
+              card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+              
+              // Move glare based on mouse position
+              const glareX = (x / rect.width) * 100;
+              glare.style.background = `linear-gradient(${90 + (x / rect.width) * 30}deg, rgba(255,255,255,0) 40%, rgba(255,255,255,${glareOpacity}) 45%, rgba(255,255,255,0) 50%)`;
+              glare.style.opacity = '1';
+          });
+          
+          card.addEventListener('mouseleave', () => {
+              card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
+              glare.style.opacity = '0';
+          });
+          
+          card.style.transformStyle = 'preserve-3d';
+          card.style.transition = 'transform 0.15s ease-out';
+      })();
     </script>
   </body>
 </html>
