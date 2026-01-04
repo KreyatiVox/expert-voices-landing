@@ -2394,7 +2394,7 @@ ul {
     /* Replace border-image with standard border for rounded corners */
     border: 1px solid rgba(4, 142, 214, 0.3);
     border-radius: var(--radius-lg);
-    padding: 3rem 2.5rem;
+    padding: 3.5rem 4rem;
     position: relative;
     text-align: center;
     
@@ -2527,7 +2527,6 @@ ul {
     color: var(--primary);
     line-height: 1;
     text-shadow: 0 0 20px rgba(4, 142, 214, 0.4);
-}
 }
 
 .highlight-label {
