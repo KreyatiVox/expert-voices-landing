@@ -1,8 +1,7 @@
-# Expert Voices - Website Copywriting (Final Refinement)
+# Expert Voices - Website Copywriting
 
-**Brand**: KreyatiVox Expert Voices  
-**Language**: French  
-**Version**: Final Refinement — January 2026
+**Brand**: KreyatiVox Expert Voices
+**Language**: French
 
 ---
 
@@ -10,10 +9,8 @@
 
 ### Headline
 
-**en moins de 60 secondes**  
+**en moins de 60 secondes**
 **Soyez la référence visible, pas l'expert invisible.**
-
-> [!TIP] > **Recommandation:** Ajouter une micro-phrase émotionnelle sous le headline pour renforcer l'urgence perçue (ex. risque de rester invisible malgré l'expertise).
 
 ### Subheadline
 
@@ -34,8 +31,6 @@
 - **$280** ou 35 000 HTG
 - 15 places / mois
 
-> [!NOTE] > **Optionnel – Crédibilité:** Ajouter une ligne courte expliquant la limitation des places (accompagnement humain, qualité, suivi personnalisé).
-
 ### Guarantee Badge
 
 - **Garantie de résultat**
@@ -51,34 +46,30 @@ Je veux devenir une référence
 
 ### Section Header
 
-**Voyez la différence**  
+**Voyez la différence**
 Ne laissez plus votre expertise dans l'ombre.
 
 ### Scenario 1: Beginners
 
-**VOUS DÉMARREZ ?**  
+**VOUS DÉMARREZ ?**
 **De l'Invisible à la Référence**
 
-**Before (L'Expert Invisible)**  
+**Before (L'Expert Invisible)**
 Vos posts sont "normaux". Partagés par quelques amis bienveillants. Votre expertise reste confidentielle.
 
-**After (L'Autorité Visible)**  
+**After (L'Autorité Visible)**
 Résultats **immédiats et exponentiels**. Votre contenu travaille pour vous 24/7.
-
-> [!NOTE] > **Micro-ajustement de ton:** Cette phrase est très forte. Optionnellement, elle peut être rendue plus rationnelle pour certains profils institutionnels (sans supprimer l'impact).
 
 ### Scenario 2: Advanced
 
-**DÉJÀ DU SUCCÈS ?**  
+**DÉJÀ DU SUCCÈS ?**
 **Du Succès Fragile à l'Empire**
 
-**Before (Le plafond de verre)**  
+**Before (Le plafond de verre)**
 Vous avez des vues, mais vous êtes esclave de la production. Si vous arrêtez, tout s'arrête.
 
-**After (L'Autorité Scalable)**  
+**After (L'Autorité Scalable)**
 Un système qui génère de la croissance **sans votre présence constante**. Vous scalez votre impact.
-
-> [!NOTE] > **Micro-ajustement de ton:** Le mot "Empire" est puissant. Optionnellement, prévoir une alternative plus institutionnelle pour certaines cibles (ONG, santé, juridique).
 
 ---
 
@@ -94,22 +85,20 @@ Chez KreyatiVox, nous ne faisons pas de promesses vagues. Nous appliquons une **
 
 **Expert Voices**, c'est un accompagnement complet qui transforme votre expertise en contenus conçus pour performer.
 
-> [!NOTE] > **Optionnel – Crédibilité:** Ajouter une phrase d'ancrage : référence aux usages médias, marques ou communication professionnelle réelle.
-
 ### What's Included
 
 **Ce que comprend Expert Voices :**
 
-1. **Écriture orientée viralité**  
+1. **Écriture orientée viralité**
    Hooks, storytelling, structure AIDA. On capte l'attention dès la première seconde.
 
-2. **Coaching devant la caméra**  
+2. **Coaching devant la caméra**
    Posture, diction, regard. Vous devenez naturel, crédible et impactant.
 
-3. **Structure de rétention maximale**  
+3. **Structure de rétention maximale**
    Rythme, montage dynamique, micro-suspense. Vos vidéos sont regardées jusqu'au bout.
 
-4. **Optimisation Plateformes**  
+4. **Optimisation Plateformes**
    Formats, hashtags, timing. Vos contenus sont prêts pour Reels, TikTok et Shorts.
 
 ---
@@ -146,8 +135,6 @@ Pendant ce temps, d'autres — parfois moins qualifiés — occupent l'espace. L
 ### Subheadline
 
 Nos vidéos ne sont pas du bruit. Elles construisent une perception d'autorité.
-
-> [!IMPORTANT] > **Recommandation prioritaire:** Ajouter ici au moins un élément de preuve concret (mini cas client, citation, chiffre avant/après, même anonymisé).
 
 ---
 
@@ -189,8 +176,6 @@ Plus qu'une simple production, un actif pour votre marque personnelle.
 - 15 vidéos – Accompagnement complet
 - Limité à 15 experts par mois
 
-> [!NOTE] > **Optionnel – Stratégie prix:** À moyen terme, envisager une segmentation (version Pro) pour aligner encore plus valeur perçue et positionnement.
-
 ### CTA Button
 
 Je réserve ma place
@@ -218,8 +203,6 @@ Si, après application complète de notre méthode _(contenu, coaching et public
 ### Closer
 
 Pas de discours flou. Une méthode + une responsabilité partagée.
-
-> [!NOTE] > **Optionnel – Protection:** Ajouter une phrase rappelant la dépendance aux plateformes et algorithmes.
 
 ### Signature
 
@@ -286,19 +269,19 @@ Tout ce que vous devez savoir sur Expert Voices
 
 ### Q&A
 
-**Q: Combien de temps dure le tournage ?**  
+**Q: Combien de temps dure le tournage ?**
 A: Le tournage peut durer une demi-journée (1-4 heures dépendamment de votre expérience devant la caméra). Ce temps inclut la préparation, le coaching devant la caméra, et l'enregistrement de tous vos contenus. Nous optimisons chaque minute pour maximiser le nombre de prises utilisables.
 
-**Q: Puis-je utiliser les vidéos partout ?**  
+**Q: Puis-je utiliser les vidéos partout ?**
 A: Oui, absolument ! Vous êtes propriétaire de tous les contenus produits. Vous pouvez les utiliser sur toutes les plateformes (TikTok, Instagram, YouTube, LinkedIn), sur votre site web, dans vos présentations, et même à des fins publicitaires.
 
-**Q: Dois-je écrire mes propres scripts ?**  
+**Q: Dois-je écrire mes propres scripts ?**
 A: Oui, mais nous vous accompagnons dans l'écriture des scripts optimisés pour la viralité. Nous travaillons avec vous pour identifier vos messages clés, puis nous les structurons selon les meilleures pratiques : hooks accrocheurs, storytelling, et appels à l'action efficaces.
 
-**Q: Et si je ne suis pas à l'aise devant la caméra ?**  
+**Q: Et si je ne suis pas à l'aise devant la caméra ?**
 A: C'est justement là que notre coaching fait la différence. Nous travaillons votre posture, votre diction et votre regard. La plupart de nos clients étaient nerveux au début et ont été surpris par leur aisance à la fin du tournage. Dans le cas où vous avez besoin de plus de temps pour vous préparer, nous vous l'accorderons.
 
-**Q: Comment fonctionne la garantie ?**  
+**Q: Comment fonctionne la garantie ?**
 A: Si, après publication de toutes vos vidéos selon nos recommandations, vous n'atteignez pas 10 000 vues cumulées dans les 30 jours, vous pouvez réclamer un remboursement de 50% du service. C'est notre engagement envers votre succès.
 
 ---
@@ -346,10 +329,10 @@ Votre expertise mérite plus que quelques likes
 
 ### Pre-filled Texts
 
-**Pourquoi Expert Voices ?**  
+**Pourquoi Expert Voices ?**
 "Je recherche un accompagnement sérieux qui va au-delà du simple tournage, avec une vraie méthode (contenu, présence caméra, structure et publication)."
 
-**Message final**  
+**Message final**
 "Bonjour KreyatiVox, je souhaite rejoindre le programme Expert Voices afin de structurer et renforcer ma visibilité professionnelle."
 
 ### Guarantee Reminder
@@ -395,7 +378,7 @@ L'autorité commence au moment où vous prenez la parole.
 
 "Aujourd'hui, je me consacre à l'accompagnement des professionnels et experts souhaitant renforcer, structurer et crédibiliser leur image ainsi que leur branding professionnel."
 
-**Wilson Saintelus**  
+**Wilson Saintelus**
 Filmmaker & Digital Marketer
 
 ---
@@ -424,17 +407,19 @@ Expert Voices par KreyatiVox | Soyez la référence visible
 
 **Programme "Expert Voices" – KreyatiVox**
 
-> [!NOTE] > **Analyse:** Les CGV sont solides, claires et professionnelles. Aucun changement requis. Optionnel : renforcer une phrase sur la variabilité algorithmique pour protection maximale.
-
 ### 1. Préambule
 
-Les présentes Conditions Générales de Vente (ci-après **« CGV »**) régissent les relations contractuelles entre **Wilson Saintelus**, entrepreneur indépendant, exploitant le nom commercial **KreyatiVox** (ci-après « le Prestataire »), et toute personne physique ou morale souscrivant au programme Expert Voices (ci-après « le Client »).
+Les présentes Conditions Générales de Vente (ci-après **« CGV »**) régissent les relations contractuelles entre :
+
+**Wilson Saintelus**, entrepreneur indépendant, exploitant le nom commercial **KreyatiVox** (ci-après « le Prestataire »), et toute personne physique ou morale souscrivant au programme Expert Voices (ci-après « le Client »).
 
 Toute validation de devis, signature de contrat ou paiement vaut acceptation pleine et entière des présentes CGV, sans réserve.
 
 ### 2. Statut juridique et responsabilité
 
-KreyatiVox est un nom commercial utilisé par Wilson Saintelus pour la promotion et la commercialisation de prestations de création de contenu et de stratégie de visibilité. L'ensemble des engagements contractuels, financiers et juridiques liés au programme Expert Voices est porté personnellement par Wilson Saintelus.
+KreyatiVox est un nom commercial utilisé par Wilson Saintelus pour la promotion et la commercialisation de prestations de création de contenu et de stratégie de visibilité.
+
+L'ensemble des engagements contractuels, financiers et juridiques liés au programme Expert Voices est porté personnellement par Wilson Saintelus, entrepreneur indépendant.
 
 ### 3. Gestion et coordination du service
 
@@ -521,5 +506,106 @@ Pour toute question : contact.kreyativox@gmail.com
 
 ---
 
-_Version Finale — Janvier 2026_  
+_Exported: January 4, 2026_
+_Source: https://kreyativox.github.io/expert-voices-landing/_
+### 1. Préambule
+
+Les présentes Conditions Générales de Vente (ci-après **« CGV »**) régissent les relations contractuelles entre :
+
+**Wilson Saintelus**, entrepreneur indépendant, exploitant le nom commercial **KreyatiVox** (ci-après « le Prestataire »), et toute personne physique ou morale souscrivant au programme Expert Voices (ci-après « le Client »).
+
+Toute validation de devis, signature de contrat ou paiement vaut acceptation pleine et entière des présentes CGV, sans réserve.
+
+### 2. Statut juridique et responsabilité
+
+KreyatiVox est un nom commercial utilisé par Wilson Saintelus pour la promotion et la commercialisation de prestations de création de contenu et de stratégie de visibilité.
+
+L'ensemble des engagements contractuels, financiers et juridiques liés au programme Expert Voices est porté personnellement par Wilson Saintelus, entrepreneur indépendant.
+
+### 3. Gestion et coordination du service
+
+La coordination opérationnelle, la relation client, le suivi de production et l'organisation des tournages sont assurés sous la direction de **Widelyne Duvert**, agissant pour le compte du Prestataire.
+
+### 4. Objet du service
+
+Le programme Expert Voices est une prestation d'accompagnement à la visibilité professionnelle par la vidéo courte. Il a pour objectif de transformer l'expertise du Client en contenus vidéo structurés, clairs et optimisés pour les plateformes sociales.
+
+### 5. Description détaillée de la prestation
+
+**5.1 Contenus produits:**
+
+- **15 vidéos courtes** (30 à 90 secondes)
+- Formats optimisés pour Reels, Shorts, TikTok, LinkedIn
+
+**5.2 Prestations incluses:**
+
+- Préparation éditoriale et structuration des messages
+- Coaching à la prise de parole
+- Tournage vidéo
+- Montage vidéo (rythme, sous-titres)
+- Conseils stratégiques de publication
+
+**5.3 Prestations non incluses:**
+
+- Publicité payante ou sponsoring
+- Gestion de communauté
+- Diffusion sur des comptes tiers
+- Création de logos, identités visuelles ou sites web
+
+### 6. Durée du programme
+
+**2 à 4 semaines**, selon la disponibilité du Client, à compter du démarrage effectif (brief validé et paiement effectué).
+
+### 7. Obligations du Client
+
+- Être disponible pour les séances prévues
+- Fournir des informations exactes et exploitables
+- Participer activement au coaching
+- Valider les scripts dans les délais indiqués
+- Publier les contenus conformément aux recommandations
+
+### 8. Prix et modalités de paiement
+
+**Prix:** 280 USD / 35 000 HTG
+
+- Le paiement est exigible selon les conditions du devis
+- Les paiements sont effectués au bénéfice de Wilson Saintelus
+- Aucun contenu final ne sera livré tant que la prestation n'est pas intégralement réglée
+
+### 9. Annulation et report
+
+- **Report de tournage:** minimum 48 heures à l'avance
+- **Annulation tardive:** moins de 24 heures peut entraîner des frais
+- **Force majeure:** Le Prestataire ne saurait être tenu responsable des retards dus à des événements indépendants de sa volonté
+
+### 10. Garantie de performance
+
+Si les 15 vidéos produites et publiées conformément aux recommandations ne cumulent pas **10 000 vues organiques**, le Client pourra bénéficier d'un **remboursement de 50%** du montant de la prestation.
+
+**Conditions de validité:**
+
+- Respect strict du calendrier de publication
+- Application des recommandations fournies
+- Absence de modifications non validées
+- Vues strictement organiques (hors publicité payante)
+
+### 11. Propriété intellectuelle
+
+Les contenus produits sont exploitables par le Client pour son usage professionnel. Le Prestataire se réserve le droit d'utiliser des extraits à des fins de démonstration, portfolio ou promotion, sauf opposition écrite du Client.
+
+### 12. Limitation de responsabilité
+
+Le Prestataire est tenu à une obligation de moyens et non de résultat absolu. Il ne saurait être tenu responsable des performances algorithmiques des plateformes, des pertes indirectes, ou des interprétations subjectives des résultats.
+
+### 13. Droit applicable et litiges
+
+Les présentes CGV sont régies par le droit applicable en Haïti. En cas de litige, les parties s'engagent à rechercher une solution amiable avant toute action judiciaire.
+
+### Contact
+
+Pour toute question : contact.kreyativox@gmail.com
+
+---
+
+_Exported: January 4, 2026_
 _Source: https://kreyativox.github.io/expert-voices-landing/_
